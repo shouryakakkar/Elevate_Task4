@@ -1,6 +1,19 @@
 # Elevate_Task4
 <img width="501" height="773" alt="image" src="https://github.com/user-attachments/assets/9aa5d80a-7a61-4400-b68d-9ac32b63fd25" />
 
+Commands
+
+sudo ufw status numbered
+
+sudo ufw deny 23/tcp
+
+telnet localhost 23
+
+sudo ufw allow 22/tcp
+
+sudo ufw delete deny 23/tcp
+
+
 Summary 
 
 A firewall monitors network traffic and applies rules to allow or block connections based on criteria such as IP address, port number, and protocol.
